@@ -6,7 +6,7 @@ build_prov = True  # merge all recorded provenance files - True/False
 flatten_prov = True  # requires provtoolbox installation, removes duplicates and shrinks
 global_tracking = False # option to record global variables throughout the code
 
-provenance_directory = '/home/prov-praetor/data_runs/' # location for generated provenance storage
+provenance_directory = '/home/praetor/' # location for generated provenance storage
 modules = [ 'em', 'emutils', 'emplt']  # list of python modules/functions to record provenance for - use the name assigned to it in python
 blacklist = []  # list of function to not include provenance for
 staticmethods = [] # leave blank unless there are complaints about static methods
